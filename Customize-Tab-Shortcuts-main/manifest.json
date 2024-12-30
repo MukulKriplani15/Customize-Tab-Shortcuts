@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "Customize Tab Shortcuts",
+  "version": "1.0",
+  "description": "Manage your tabs like a pro!",
+  "icons": {
+    "128": "image.png"
+  },
+  "author": "Akshay",
+  "permissions": ["tabs", "windows"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+D"
+      },
+      "description": "Duplicate the current tab"
+    },
+    "move-next-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Tab"
+      },
+      "description": "Move to the next tab"
+    },
+    "move-prev-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Tab"
+      },
+      "description": "Move to the previous tab"
+    },
+    "minimize-window": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+N"
+      },
+      "description": "Minimize the current window"
+    }
+  },
+  "action": {
+    "default_title": "Manage your tabs like a pro!",
+    "default_icon": {
+      "16": "image.png",
+      "48": "image.png",
+      "128": "image.png"
+    },
+    "icons": {
+      "16": "image.png",
+      "48": "image.png",
+      "128": "image.png"
+    }
+  }
+}
