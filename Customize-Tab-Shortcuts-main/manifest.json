@@ -6,7 +6,7 @@
   "icons": {
     "128": "image.png"
   },
-  "author": "Akshay",
+  "author": "Mukul",
   "permissions": ["tabs", "windows"],
   "background": {
     "service_worker": "background.js"
@@ -20,13 +20,13 @@
     },
     "move-next-tab": {
       "suggested_key": {
-        "default": "Ctrl+Tab"
+        "default": "Command+Right"
       },
       "description": "Move to the next tab"
     },
     "move-prev-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Tab"
+        "default": "Command+Left"
       },
       "description": "Move to the previous tab"
     },
