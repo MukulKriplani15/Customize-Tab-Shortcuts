@@ -20,13 +20,13 @@
     },
     "move-next-tab": {
       "suggested_key": {
-        "default": "Command+Right"
+        "default": "Ctrl+Tab"
       },
       "description": "Move to the next tab"
     },
     "move-prev-tab": {
       "suggested_key": {
-        "default": "Command+Left"
+        "default": "Ctrl+Shift+Tab"
       },
       "description": "Move to the previous tab"
     },
